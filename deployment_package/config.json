@@ -1,0 +1,23 @@
+{
+    "application": {
+        "name": "PDF to CSV Converter",
+        "version": "1.0.0",
+        "log_level": "INFO"
+    },
+    "conversion": {
+        "default_output_directory": "./output",
+        "max_concurrent_conversions": 4,
+        "timeout_seconds": 300,
+        "retry_attempts": 3
+    },
+    "logging": {
+        "log_directory": "./logs",
+        "max_log_size_mb": 10,
+        "max_log_files": 5
+    },
+    "gui": {
+        "theme": "light",
+        "default_language": "en",
+        "auto_update_check": true
+    }
+} 
